@@ -1,0 +1,9 @@
+[project]
+name = "sonar-dup-smells-demo"
+version = "1.0.0"
+description = "Intentionally duplicated and smelly Python code for SonarQube testing"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
